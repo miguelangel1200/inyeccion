@@ -11,6 +11,10 @@ include('db.php');
     <title>Administrador</title>
 </head>
 <body>
+    <?php 
+        include('home.php');
+    ?>
+
 <table border="1">
     <h1>Vuelos</h1>
         <tr>

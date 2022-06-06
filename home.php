@@ -1,4 +1,3 @@
-<h1>Bienvenido</h1>
 <?php
 
 
@@ -15,6 +14,7 @@ include('db.php');
     <title>Datos de Posicionamiento</title>
 </head>
 <body>
+    <h1>Datos Obtenidos</h1>
     <table border="1">
         <tr>
             <td>x</td><td>y</td><td>z</td><td>ubicacion</td>

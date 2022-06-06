@@ -18,6 +18,7 @@ $rows=mysqli_fetch_array($respuesta);
     <title>Actualizar</title>
 </head>
 <body>
+    
     <form action="actualizar.php" method="post">
         <input type="hidden" name="id_vuelo" value="<?php echo $rows['id']?>">
 
